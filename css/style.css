@@ -1,0 +1,21 @@
+/* NAVIGATION */
+:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+.gradient {
+  background: rgb(4, 3, 65);
+  background: linear-gradient(310deg, rgb(28, 25, 181) 0%, rgb(55, 52, 225) 0%, rgb(40, 40, 235) 10%, rgb(20, 102, 149) 65%, rgb(77, 75, 198) 100%, rgb(49, 47, 156) 100%, rgb(75, 75, 216) 100%, rgb(53, 50, 234) 100%);
+}
+
+/* FEATURES ICON */
+.features-list-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.section-footer a {
+  color: #e3f803;
+  text-decoration: none;
+}
